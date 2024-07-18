@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+    
+}
+
+.login-container {
+    
+    
+    
+
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    max-width:px;
+    height: 600px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 20px;
+    font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+.icon{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    justify-content: center;
+    margin-left: 37%;
+}
+.checkbox{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+
+}
+.Remember{
+ display: block;
+ margin-bottom: 5px;
+ font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  
+}
+.Remember label{
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.forgot{
+    margin-top: 30px;
+    text-align: center;
+}
+footer {
+    
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .social-icons {
+    margin-top: 10px;
+  }
+  
+  .social-icons a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .social-icons a:hover {
+    color: #af3131;
+  }
+.l{
+    text-decoration: none;
+    color: white;
+}
